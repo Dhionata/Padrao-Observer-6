@@ -1,4 +1,4 @@
 
 public interface Observer {
-    public void update(int homeScore, int awayScore, int time, String event);
+    void update(int golsMandantes, int golsVisitantes, int tempo, String acontecimento, String nomeEvento);
 }
